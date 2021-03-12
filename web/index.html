@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome to Cryptic Hunt</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div align="center" class="glow">Cryptic Hunt</div>
+        <div class="login">
+            <h2>New User</h2>
+            <form method="post" action="login.jsp" style="color: white; align-content: center">
+                
+                First Name:
+                <input type="text" name="FirstName" required="required"><br>
+                Last Name:
+                <input type="text" name="LastName" required="required"><br>
+                Contact:
+                <input type="number" name="Contact" required="required"><br>
+                Institution Name:
+                <input type="text" name="Institute" required="required">
+                <br>
+                Email:
+                <input type="text" name="Email" required="required"><br>
+                <button class="btn btn-primary btn-block btn-large">Let me in.</button>
+               
+            </form><br>
+            <form  class="login">
+                <h2>Old User</h2>
+                <button formaction="LevelZero.jsp" class="btn btn-primary btn-block btn-large">Go to Level Zero</button>
+            </form>
+        </div>
+    </body>
+</html>
